@@ -1,49 +1,24 @@
-# Vonge
+# Zest - my personal blog
 
-Vonge is a Personal portfolio/blog site template for Jekyll. Browse through a [live demo](https://jazzed-kale.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+## Development
 
-![Vonge template screenshot](_screenshot.png)
+### installing dev tools
+1.  install Ruby 2.7
+2. install bundler
+```
+gem install bundler
+```
+3. install Ruby gems
+```
+cd site
+bundle install
+```
 
-Vonge was made by [CloudCannon](http://cloudcannon.com/), the JAMStack Cloud CMS.
-The component library is built and maintained for use with [Bookshop](https://github.com/cloudcannon/bookshop/)
+### Making changes to the site
+launching a local interactive version of the site in the browser: 
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Community](https://cloudcannon.com/community/).
+```
+cd site 
+bundle exec jekyll serve --livereload --open-url
+```
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
-
-## Features
-
-* Component library for website building
-* Fully configurable Website
-* Pre-built pages
-* Pre-styled components
-* Blog
-* Category pages
-* Testimonials
-* Portfolio
-* Live editing with [CloudCannon](http://cloudcannon.com/)
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Search engine optimisation
-
-## Develop
-
-Vonge was built with [Jekyll](http://jekyllrb.com/) version 4.2.0, but should support newer versions as well.
-
-Install the dependencies for Bookshop:
-
-~~~bash
-$ npm install
-~~~
-
-Install the Jekyll dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ npm run install-jekyll
-~~~
-
-Run the website:
-
-~~~bash
-$ npm start
-~~~

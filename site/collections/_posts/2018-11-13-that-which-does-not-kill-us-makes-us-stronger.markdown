@@ -1,7 +1,8 @@
 ---
-date: 2018-11-13 12:01:35
+date: 2022-01-08 12:01:35
 title: That which does not kill us makes us stronger
 description: >-
+  I love you!
   Bring to the table win-win survival strategies to ensure proactive domination.
   At the end of the day, going forward.
 tags:
