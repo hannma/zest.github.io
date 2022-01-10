@@ -10,6 +10,7 @@ gem install bundler
 ```
 3. install Ruby gems
 ```
+cd site
 bundle install
 ```
 
@@ -17,6 +18,7 @@ bundle install
 launching a local interactive version of the site in the browser: 
 
 ```
+cd site 
 bundle exec jekyll serve --livereload --open-url
 ```
 
